@@ -1,20 +1,20 @@
 ## Setup do projeto (backend)
 
-Apos clonar ou baixar o repositorio, execute os seguintes passos no prompt de comando no pasta root do projeto
+Após clonar ou baixar o repositorio, execute os seguintes passos no prompt de comando na pasta root do projeto
 
 ### Instalação
 
 ```bash
-# instalacao de dependências
+# instalação de dependências
 yarn
 #ou
 npm install
 ```
 
-### Variaveis de ambiente
+### Variáveis de ambiente
 
-Esse projeto utiliza de variaveis de ambiente para fazer a separacao de informacoes como a url e credenciais do banco de dados. <br/>
-Sera necessario criar um arquivo .env no root do projeto com esses valores para que o projeto funcione corretamente
+Esse projeto utiliza de variáveis de ambiente para fazer a separação de informações como a url e credenciais do banco de dados. <br/>
+Será necessario criar um arquivo .env no root do projeto com esses valores para que ele funcione corretamente
 
 Os valores devem ser os seguintes para utilizar o banco mongoDB configurado no Atlas 
 
@@ -47,4 +47,4 @@ O projeto requer que o frontend esteja rodando para funcionar corretamente.
 ## Frontend
 
 O frontend desse projeto esta separado em [outro repositorio](https://github.com/LeFelps/scarf-faq). <br/>
-Sera necessario rodar os dois projetos simultaneamente.
+É necessário rodar os dois projetos simultaneamente.
