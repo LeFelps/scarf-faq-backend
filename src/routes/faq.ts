@@ -93,7 +93,7 @@ router.post('/', async (req, res) => {
 
 router.patch('/', async (req, res) => {
     try {
-        const id = req.body.id;
+        const id = req.body._id;
         const updatedData = req.body;
         const options = { new: true };
 
