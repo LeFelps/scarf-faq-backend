@@ -70,7 +70,7 @@ router.get('/:id', async (req, res) => {
 })
 
 
-router.post('/', (req, res) => {
+router.post('/', async (req, res) => {
     const data = new QuestionModel({
         title: req.body.title,
         description: req.body.description,
@@ -78,7 +78,8 @@ router.post('/', (req, res) => {
     })
 
     try {
-        const dataToSave = data.save();
+        const dataToSave = await data.save();
+        console.log(dataToSave)
         res.status(200).json(dataToSave)
     }
     catch (error) {
