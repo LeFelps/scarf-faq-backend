@@ -2,6 +2,8 @@
 
 Apos clonar ou baixar o repositorio, execute os seguintes passos no prompt de comando no pasta root do projeto
 
+### instalação
+
 ```bash
 # instalacao de dependências
 yarn
