@@ -79,7 +79,6 @@ router.post('/', async (req, res) => {
 
     try {
         const dataToSave = await data.save();
-        console.log(dataToSave)
         res.status(200).json(dataToSave)
     }
     catch (error) {
